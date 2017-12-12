@@ -115,7 +115,7 @@ def get_logs(proxy=None, proxy_port=None):
             'cs1=': str(entry['new_enrollment']),
             'cs2Label=': 'factor',
             'cs2=': entry['factor'],
-            'ca3Label=': 'integration',
+            'cs3Label=': 'integration',
             'cs3=': entry['integration'],
         }
 
